@@ -1,0 +1,21 @@
+{{page-title 'RegisterGame'}}
+
+<div class='container mt-5'>
+
+  <div class='card'>
+
+    <div class='card-body'>
+
+      <FormRegisterGame
+        @gameName={{this.gameName}}
+        @gameDescription={{this.gameDescription}}
+        @event={{this.addGame}}
+      />
+
+    </div>
+
+  </div>
+
+</div>
+
+{{outlet}}

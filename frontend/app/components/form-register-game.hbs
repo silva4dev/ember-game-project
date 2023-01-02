@@ -1,0 +1,35 @@
+{{yield}}
+
+<form>
+  <div class='form-group mb-3'>
+    <label for='name'>Nome:</label>
+    <Input
+      @type='text'
+      @value={{@gameName}}
+      class='form-control'
+      id='name'
+      name='name'
+      autocomplete='off'
+    />
+  </div>
+
+  <div class='form-group mb-3'>
+    <label for='description'>Descrição:</label>
+    <Textarea
+      style='resize: none;'
+      @type='text'
+      @value={{@gameDescription}}
+      class='form-control'
+      id='description'
+      name='description'
+      autocomplete='off'
+      rows='4'
+    />
+  </div>
+
+  <button
+    type='button'
+    class='btn btn-primary'
+    {{action @event}}
+  >Cadastrar</button>
+</form>

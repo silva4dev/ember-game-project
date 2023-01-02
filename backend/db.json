@@ -1,0 +1,19 @@
+{
+  "games": [
+    {
+      "name": "Super Mario World",
+      "description": "Super Mario World, originalmente chamado no Japão de Super Mario Bros. 4, é um jogo eletrônico de plataforma, desenvolvido pela Nintendo Entertainment Analysis & Development e publicado pela Nintendo, em 1990, para o console Super Nintendo Entertainment System.",
+      "id": 1
+    },
+    {
+      "name": "Resident Evil 4",
+      "description": "Resident Evil 4, conhecido no Japão como Biohazard 4, é um jogo eletrônico de survival horror e tiro em terceira pessoa desenvolvido e publicado pela Capcom, lançado originalmente para o Nintendo GameCube em 2005. É o sexto jogo principal da franquia Resident Evil.",
+      "id": 2
+    },
+    {
+      "name": "Chrono Trigger",
+      "description": "Chrono Trigger é um jogo de RPG eletrônico desenvolvido pela Square Co. Foi lançado para o console Super Nintendo no Japão em março de 1995, e uma versão aprimorada para PlayStation foi lançada em novembro de 1999.",
+      "id": 3
+    }
+  ]
+}

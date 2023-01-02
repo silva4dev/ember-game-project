@@ -1,0 +1,22 @@
+{{page-title "EditGame"}}
+
+<div class='container mt-5'>
+
+  <div class='card'>
+
+    <div class='card-body'>
+
+      <FormEditGame
+        @gameName={{@model.gameName}}
+        @gameDescription={{@model.gameDescription}}
+        @gameId={{@model.gameId}}
+        @event={{this.editGame}}
+      />
+
+    </div>
+
+  </div>
+
+</div>
+
+{{outlet}}
